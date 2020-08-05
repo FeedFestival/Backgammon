@@ -9,6 +9,18 @@ using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
+    //private User _user = new User
+    //{
+    //    UserName = "admin",
+    //    Password = "fire4test"
+    //};
+
+    // username: ""
+    // password: "stBlW0PBT7"
+
+    // sim.danny
+    // fire4test
+
     #region Game
 
     public Main Main;
@@ -29,9 +41,38 @@ public class Game : MonoBehaviour
         Application.ExternalCall("setGameReady");
 
         //  this is called from te browser, TODO: delete before publish.
-        SetSession("B2C79103-A772-4E27-A3BE-E57E452E4C36");
+
+        //SetSession("3B37A1D1-29FF-4484-926F-8C0BBB0B9B16");
+
+
+
+
+
+
+
+
+        var user = new User
+        {
+            Id = 1,
+            UserName = "sim.danny",
+            FirstName = "Dany",
+            FUniqueId = "OEPZMaDU0lWZR_wapoeERx-7s-g",
+            Password = "fire4test"
+        };
+        Main.LoggedUser = user;
+
+        //var user = new User
+        //{
+        //    UserName = "dany.flory",
+        //    FirstName = "FloryDany",
+        //    FUniqueId = "5ZuD5B7a4OD5MNMQAHOWPHq5O5g",
+        //    Password = "stBlW0PBT7"    
+        //};
+        //Main.LoggedUser = user;
+
+        Main.GameSparksController.Init(Main);
     }
-    
+
     public void SetSession(string sessionId)
     {
         // avoid error: m_size < k_reference_bit

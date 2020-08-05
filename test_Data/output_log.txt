@@ -1,0 +1,140 @@
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
+    Vendor:   NVIDIA
+    VRAM:     994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\BouncyCastle_GameSparks.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\BouncyCastle_GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\GameSparks.Api.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\GameSparks.Api.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\GameSparks.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\GameSparksRT.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\GameSparksRT.dll into Unity Child Domain
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Projects\Backgammon\test_Data\Managed\LitJson.dll into Unity Child Domain
+- Completed reload, in  0.059 seconds
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Projects\Backgammon\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.545508 ms
+External Call: setGameReady();
+ 
+(Filename:  Line: 396)
+
+GS: Connecting to:wss://preview.gamesparks.net/ws/m304600eAjUx?deviceOS=WP8&deviceID=490db6cafa17217842cfe20a0c56a514075a6b8e&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+IPv6 on!
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 185c -> priority: 1 
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se02.gamesparks.net/ws/m304600eAjUx?deviceOS=WP8&deviceID=490db6cafa17217842cfe20a0c56a514075a6b8e&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: Connecting to:wss://gsp-aeu000-se02.gamesparks.net/ws/m304600eAjUx?deviceOS=WP8&deviceID=490db6cafa17217842cfe20a0c56a514075a6b8e&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"09e802dd-8bd8-4cb5-96fc-c85c3f5dc0d2","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"eFn3tBldDBMW+xCXgIBm5ZNTuUy9PejcpeHR006SFoU=","os":"WP8","platform":"WindowsPlayer","deviceId":"490db6cafa17217842cfe20a0c56a514075a6b8e","authToken":"b9770b4c-6dd2-4a8c-affa-e01c90e7754a"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"50f8e1e9-d9a1-46d3-a05a-092ea9078bc8","requestId":"0","sessionId":"09e802dd-8bd8-4cb5-96fc-c85c3f5dc0d2","userId":"5844111a08987a04a4df51e1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: SEND:{"@class":".RegistrationRequest","displayName":"admin","userName":"admin","password":"fire4test","requestId":"636171903636097091_0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class":".RegistrationResponse","error":{"USERNAME":"TAKEN"},"newPlayer":false,"requestId":"636171903636097091_0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GSM| Existing User, Switching to Authentication
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"admin","password":"fire4test","requestId":"636171903638088671_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"2b10600f-bbcb-4120-8b34-2492c94df4bc","displayName":"admin","newPlayer":false,"requestId":"636171903638088671_1","userId":"5844111a08987a04a4df51e1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+User Authenticated...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"Backgammon_Chat","skill":0,"requestId":"636171903641092374_2"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636171903641092374_2"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"uNeARpzPMdK/OCQy3w0umWUhJosRf6ZSreDppLx9FI+ZtRUCBhPEOkfyq/EmBu6GQ1BfutcEye+7OrgvcOu1e7AgO4ErPqP07VaF6TfrqVmDt4rXKZ+J1jOjzjsrYOaYKYY743V1sFBYyOYZznyfwq9Pk8WTadwPNrZCGRN723xfX25ZvrDVp1aXcDKHz6jBMzvGoXmn6omWJmGvQtJRVbQwSMbCcTjbZpU3k/CXjmcCWOQvPWoRoDZuhyu74xhe3o2aoKrst6Ub0lWG+b//chQ0mVc8d/0P9mv5NHEMVZbtZgdB1D9xTFSvKqlAfN4IyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":304600,"host":"gsp-aeu-rt03.gamesparks.net","matchData":{},"matchId":"584f37afe7fe2c61557e7612","matchShortCode":"Backgammon_Chat","messageId":"584f37afe7fe2c61557e7619","notification":true,"participants":[{"displayName":"admin","externalIds":{ },"id":"5844111a08987a04a4df51e1","online":true,"peerId":1},{"displayName":"Dany.Flory","externalIds":{ },"id":"584ef03b38c31604a0983029","online":true,"peerId":2}],"playerId":"5844111a08987a04a4df51e1","port":5100,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Match Found!...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Match Found...
+Host URL:gsp-aeu-rt03.gamesparks.net
+Port:5100
+Access Token:uNeARpzPMdK/OCQy3w0umWUhJosRf6ZSreDppLx9FI+ZtRUCBhPEOkfyq/EmBu6GQ1BfutcEye+7OrgvcOu1e7AgO4ErPqP07VaF6TfrqVmDt4rXKZ+J1jOjzjsrYOaYKYY743V1sFBYyOYZznyfwq9Pk8WTadwPNrZCGRN723xfX25ZvrDVp1aXcDKHz6jBMzvGoXmn6omWJmGvQtJRVbQwSMbCcTjbZpU3k/CXjmcCWOQvPWoRoDZuhyu74xhe3o2aoKrst6Ub0lWG+b//chQ0mVc8d/0P9mv5NHEMVZbtZgdB1D9xTFSvKqlAfN4IyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=
+MatchId:584f37afe7fe2c61557e7612
+Opponents:2
+_________________
+
+Player:1 User Name:admin
+Player:2 User Name:Dany.Flory
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+

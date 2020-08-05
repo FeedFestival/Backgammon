@@ -1,11 +1,4 @@
-﻿using System;
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using UnityEditor.Animations;
-using UnityEngine.Networking.Match;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using b = Assets.Scripts.Utils.style_base;
 

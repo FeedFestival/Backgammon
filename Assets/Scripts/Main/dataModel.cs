@@ -28,6 +28,8 @@ namespace Assets.Scripts.Main
         public List<FacebookApp> FacebookApps { get; set; }
         public string FUniqueId { get; set; }
 
+        public List<User> Friends { get; set; }
+
         public override string ToString()
         {
             return string.Format("User { Id={0}, Name={1}, Maps={2}, IsUsingSound={3}, ControllerType={4}, FacebookId={5} }", Id, Name, Maps, IsUsingSound, ControllerType, FacebookApp.FacebookId);

@@ -6,7 +6,7 @@ using LitJson;
 using System.Configuration;
 using Assets.Scripts.Main;
 using Assets.Scripts.Utils;
-using UnityEditor.iOS.Xcode;
+//using UnityEditor.iOS.Xcode;
 
 public class PhpController : MonoBehaviour
 {
@@ -73,7 +73,8 @@ public class PhpController : MonoBehaviour
             FirstName = data["FirstName"].ToString(),
             MiddleName = data["MiddleName"] == null ? "" : data["MiddleName"].ToString(),
             LastName = data["LastName"].ToString(),
-            FacebookApps = new List<FacebookApp>()
+            FacebookApps = new List<FacebookApp>(),
+            Friends = new List<User>()
         };
 
         user.UserName = user.FirstName + "." + user.LastName;
@@ -92,6 +93,21 @@ public class PhpController : MonoBehaviour
                 }
                 );
         }
+
+        for (int i = 0; i < data["Friends"].Count; i++)
+        {
+            user.Friends.Add(
+                new User
+                {
+                    Id = int.Parse(data["Friends"][i]["Id"].ToString()),
+                    Name = data["Friends"][i]["Name"].ToString(),
+                    FUniqueId = data["Friends"][i]["FUniqueId"].ToString()
+                }
+            );
+
+            Debug.Log(" - friend - " + user.Friends[0].Name);
+        }
+
         _main.Game.FetchUserCallback(user);
     }
 }
